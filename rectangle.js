@@ -8,3 +8,9 @@
 
 // Perimeter of rectangle = 30 units
 
+function inputNumber(length, width){
+    const rectangle = 2 * (length + width);
+    console.log("Perimeter of rectangle = " + rectangle + " units.");
+}
+
+inputNumber(5, 10);
