@@ -6,3 +6,10 @@
 // Output
 
 // Area of rectangle = 50 sq. units
+
+function inputNumber(length, width){
+    const areaRectangle = (length * width);
+    console.log("Area of rectangle = " + areaRectangle + " units.");
+}
+
+inputNumber(5, 10);
